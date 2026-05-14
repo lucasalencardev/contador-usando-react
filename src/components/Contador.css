@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(135deg, #111, #1f1f1f);
+}
+
+.container {
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 300px;
+  height: 250px;
+
+  background: rgba(255, 255, 255, 0.05);
+
+  border: 1px solid rgba(255, 255, 255, 0.1);
+
+  border-radius: 24px;
+
+  backdrop-filter: blur(10px);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 40px;
+
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+  color: white;
+  margin: 0;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+h1 {
+  color: white;
+  font-size: 80px;
+  margin: 0;
+}
+
+.botoes {
+  display: flex;
+  gap: 20px;
+}
+
+button {
+  width: 70px;
+  height: 70px;
+
+  border: none;
+  border-radius: 16px;
+
+  background: rgba(255, 255, 255, 0.08);
+
+  color: white;
+
+  font-size: 35px;
+  font-weight: bold;
+
+  cursor: pointer;
+
+  backdrop-filter: blur(5px);
+
+  transition: 0.3s;
+}
+
+button:hover {
+  background: rgba(255, 255, 255, 0.18);
+
+  transform: scale(1.08);
+
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.15);
+}
+
+.copyright {
+  position: absolute;
+  bottom: 20px;
+
+  color: rgba(255, 255, 255, 0.3);
+
+  font-size: 12px;
+  letter-spacing: 1px;
+}
